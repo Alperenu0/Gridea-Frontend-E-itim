@@ -37,4 +37,35 @@ header nav a:nth-child(2) {
   margin-top: 50px;
   width: 175px;
   padding: 1px 40px;
+}
+
+.body {
+  margin: 77px 100px 77px 100px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Poppins;
+}
+.body .left h1 {
+  margin-right: 155px;
+  font-size: 60px;
+  line-height: 90px;
+  color: #FFFFFF;
+}
+.body .left p {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(116, 86, 86, 0.7058823529);
+}
+.body .left button {
+  margin-top: 72px;
+  padding: 13px 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #F8D57E;
+}
+.body .right {
+  border: 1px none #892525;
+  border-radius: 13px;
+  background-color: #333333;
 }/*# sourceMappingURL=style.css.map */
