@@ -118,5 +118,40 @@ header {
 }
 
 .bottomImg {
-    margin: 100px 200px 200px 200px;
+    margin: 100px 200px 100px 200px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 250px 250px ;
+    h3{
+        text-align: center;
+        margin-top:32px ;
+        font-family: $favfontfamily;
+        color: white;
+    }
+    p{
+        text-align: center;
+        font-family: $favfontfamily;
+        color: #745656b4;
+    }
+    img{
+        margin: auto 120px ;
+    }
+    
+    div:first-child{
+        width: 311px;
+        
+        
+    }
+    div:nth-child(2){
+        width: 311px;
+        
+    }
+    div:nth-child(3){
+        width: 311px;
+
+        
+    }
 }

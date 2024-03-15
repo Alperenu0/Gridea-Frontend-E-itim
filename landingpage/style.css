@@ -85,5 +85,34 @@ header nav a:nth-child(2) {
 }
 
 .bottomImg {
-  margin: 100px 200px 200px 200px;
+  margin: 100px 200px 100px 200px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 250px 250px;
+}
+.features h3 {
+  text-align: center;
+  margin-top: 32px;
+  font-family: Poppins;
+  color: white;
+}
+.features p {
+  text-align: center;
+  font-family: Poppins;
+  color: rgba(116, 86, 86, 0.7058823529);
+}
+.features img {
+  margin: auto 120px;
+}
+.features div:first-child {
+  width: 311px;
+}
+.features div:nth-child(2) {
+  width: 311px;
+}
+.features div:nth-child(3) {
+  width: 311px;
 }/*# sourceMappingURL=style.css.map */
